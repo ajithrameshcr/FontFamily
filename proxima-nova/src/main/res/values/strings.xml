@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FontFamily</string>
+
+    <string name="ProximaNova_Bold">ProximaNova-Bold</string>
+    <string name="ProximaNova_Extrabld">ProximaNova-Extrabld</string>
+    <string name="ProximaNova_Light">ProximaNova-Light</string>
+    <string name="ProximaNova_LightIt">ProximaNova-LightIt</string>
+    <string name="ProximaNova_Regular">ProximaNova-Regular</string>
+    <string name="ProximaNova_RegularIt">ProximaNova-RegularIt</string>
+    <string name="ProximaNova_Semibold">ProximaNova-Semibold</string>
+    <string name="ProximaNova_SemiboldIt">ProximaNova-SemiboldIt</string>
+    <string name="GOT">GOT</string>
+</resources>
