@@ -6,16 +6,16 @@ import android.graphics.Typeface;
 import android.util.AttributeSet;
 
 
-public class CustomTextView extends androidx.appcompat.widget.AppCompatTextView {
+public class CustomButton extends androidx.appcompat.widget.AppCompatButton {
 
     String customFont;
 
-    public CustomTextView(Context context, AttributeSet attrs) {
+    public CustomButton(Context context, AttributeSet attrs) {
         super(context, attrs);
         style(context, attrs);
     }
 
-    public CustomTextView(Context context, AttributeSet attrs, int defStyle) {
+    public CustomButton(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         style(context, attrs);
 

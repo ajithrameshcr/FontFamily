@@ -6,16 +6,16 @@ import android.graphics.Typeface;
 import android.util.AttributeSet;
 
 
-public class CustomButton extends androidx.appcompat.widget.AppCompatButton {
+public class CustomEditText extends androidx.appcompat.widget.AppCompatButton {
 
     String customFont;
 
-    public CustomButton(Context context, AttributeSet attrs) {
+    public CustomEditText(Context context, AttributeSet attrs) {
         super(context, attrs);
         style(context, attrs);
     }
 
-    public CustomButton(Context context, AttributeSet attrs, int defStyle) {
+    public CustomEditText(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         style(context, attrs);
 
