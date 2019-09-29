@@ -18,17 +18,17 @@
     <ajithrameshcr.fontfamily.CustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="O"
+        android:text="Hai"
         android:textSize="30sp"
         android:layout_marginTop="20dp"
         app:fontName="ProximaNova_Bold"
         />
 
-    <ajithrameshcr.fontfamily.CustomButton
+    <ajithrameshcr.fontfamily.CustomSearchView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="GOT"
-        app:fontName="GOT"/>
+        app:fontName="ProximaNova_Semibold"/>
 
 
 </LinearLayout>
