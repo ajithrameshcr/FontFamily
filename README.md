@@ -17,7 +17,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.ajithrameshcr:FontFamily:0.1.1'
+	        implementation 'com.github.ajithrameshcr:FontFamily:0.1.2'
 	}
 	
 step 3. Add Custom views in XML file
@@ -32,14 +32,6 @@ step 3. Add Custom views in XML file
         app:fontName="ProximaNova_Bold"
         />	
 	
-# SearchView
-
-	<ajithrameshcr.fontfamily.CustomSearchView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30sp"
-        app:fontName="ProximaNova_Light"
-        />
 
 # Button
 
