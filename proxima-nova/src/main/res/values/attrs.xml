@@ -13,9 +13,6 @@
         <attr name="fontName" />
     </declare-styleable>
 
-    <declare-styleable name="CustomSearchView">
-        <attr name="fontName" />
-    </declare-styleable>
 
     <attr name="fontName" format="enum">
         <enum name="ProximaNova_Bold" value="1" />

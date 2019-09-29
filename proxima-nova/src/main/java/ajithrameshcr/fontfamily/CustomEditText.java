@@ -6,7 +6,7 @@ import android.graphics.Typeface;
 import android.util.AttributeSet;
 
 
-public class CustomEditText extends androidx.appcompat.widget.AppCompatButton {
+public class CustomEditText extends androidx.appcompat.widget.AppCompatEditText {
 
     String customFont;
 
@@ -24,8 +24,8 @@ public class CustomEditText extends androidx.appcompat.widget.AppCompatButton {
     private void style(Context context, AttributeSet attrs) {
 
         TypedArray a = context.obtainStyledAttributes(attrs,
-                R.styleable.CustomTextView);
-        int cf = a.getInteger(R.styleable.CustomTextView_fontName, 0);
+                R.styleable.CustomEditText);
+        int cf = a.getInteger(R.styleable.CustomEditText_fontName, 0);
         int fontName = 0;
         switch (cf) {
             case 1:

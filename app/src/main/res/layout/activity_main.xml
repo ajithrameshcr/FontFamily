@@ -24,11 +24,18 @@
         app:fontName="ProximaNova_Bold"
         />
 
-    <ajithrameshcr.fontfamily.CustomSearchView
+    <ajithrameshcr.fontfamily.CustomEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hao"
+        app:fontName="GOT"/>
+
+    <ajithrameshcr.fontfamily.CustomButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="GOT"
-        app:fontName="ProximaNova_Semibold"/>
+        android:text="hot button"
+        app:fontName="GOT"/>
+    
 
 
 </LinearLayout>

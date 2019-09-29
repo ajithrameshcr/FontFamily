@@ -24,8 +24,8 @@ public class CustomButton extends androidx.appcompat.widget.AppCompatButton {
     private void style(Context context, AttributeSet attrs) {
 
         TypedArray a = context.obtainStyledAttributes(attrs,
-                R.styleable.CustomTextView);
-        int cf = a.getInteger(R.styleable.CustomTextView_fontName, 0);
+                R.styleable.CustomButton);
+        int cf = a.getInteger(R.styleable.CustomButton_fontName, 0);
         int fontName = 0;
         switch (cf) {
             case 1:
